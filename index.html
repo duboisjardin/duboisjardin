@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dubois Jardin - Jardinier à Feisson-sur-Isère : tonte, débroussaillage, taille de haie. Offre de lancement -10%." />
+  <title>Dubois Jardin - Votre Jardin, Notre Passion</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f0f8f5; color: #333; }
+    header { background: #3e8e41; color: white; padding: 1.5em 0; text-align: center; }
+    nav { text-align: center; background: #2f6d32; padding: 0.5em; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { max-width: 1000px; margin: auto; padding: 2em; }
+    h2 { color: #3e8e41; }
+    footer { background: #2f6d32; color: white; text-align: center; padding: 1em; font-size: 0.9em; }
+    form input, form textarea, form select { width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 4px; }
+    form button { background: #3e8e41; color: white; border: none; padding: 0.75em 1.5em; font-size: 1em; cursor: pointer; border-radius: 4px; }
+    .tarifs-table td, .tarifs-table th { padding: 0.5em; border-bottom: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dubois Jardin</h1>
+    <p>Votre jardin, notre passion !</p>
+  </header>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#reservation">Réservation</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services">
+    <h2>Nos Services</h2>
+    <ul>
+      <li>Tonte de pelouse</li>
+      <li>Débroussaillage</li>
+      <li>Taille de haie</li>
+      <li>Nettoyage et évacuation offerts</li>
+    </ul>
+  </section>
+
+  <section id="tarifs">
+    <h2>Tarifs</h2>
+    <p><strong>Tonte de pelouse</strong></p>
+    <ul>
+      <li>Petit jardin (-200 m²) : 50 €</li>
+      <li>Moyen (200 à 500 m²) : 80 €</li>
+      <li>Grand (500 à 1 000 m²) : 120 €</li>
+      <li>XL (+1 000 m²) : Sur devis (à partir de 0,20 €/m²)</li>
+    </ul>
+    <p><strong>Débroussaillage</strong></p>
+    <ul>
+      <li>Léger : 60 €</li>
+      <li>Standard : 100 €</li>
+      <li>Intensif : 150 €</li>
+      <li>XL : Sur devis (à partir de 0,30 €/m²)</li>
+    </ul>
+    <p><strong>Taille de haies</strong></p>
+    <ul>
+      <li>Haies basses : 5 €/ml</li>
+      <li>Haies moyennes : 7 €/ml</li>
+      <li>Haies hautes : 10 €/ml</li>
+      <li>Entretien régulier : -10 %</li>
+    </ul>
+  </section>
+
+  <section id="reservation">
+    <h2>Réserver une intervention</h2>
+    <form action="mailto:duboisbjardin@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="Nom" placeholder="Votre nom" required />
+      <input type="text" name="Prénom" placeholder="Votre prénom" required />
+      <input type="email" name="Email" placeholder="Votre email" required />
+      <input type="tel" name="Téléphone" placeholder="Votre téléphone" required />
+      <input type="text" name="Adresse" placeholder="Adresse de l'intervention" required />
+      <select name="Service" required>
+        <option value="">Choisissez un service</option>
+        <option value="Tonte de pelouse">Tonte de pelouse</option>
+        <option value="Débroussaillage">Débroussaillage</option>
+        <option value="Taille de haie">Taille de haie</option>
+      </select>
+      <input type="date" name="Date souhaitée" required />
+      <textarea name="Message" rows="4" placeholder="Informations complémentaires"></textarea>
+      <button type="submit">Envoyer la demande</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Téléphone : 06 65 58 76 29</p>
+    <p>Email : duboisbjardin@gmail.com</p>
+    <p>Adresse : Feisson-sur-Isère 73260</p>
+    <p>SIRET : 944 723 998 00018</p>
+    <p>Horaires : Lundi au Samedi, 8h à 18h</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dubois Jardin – Site réalisé avec passion 🌱</p>
+  </footer>
+</body>
+</html>
